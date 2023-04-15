@@ -6,7 +6,7 @@ public class fiaponline {
 	
 	public static void main(String[] args) {
 	Scanner leitor = new Scanner(System.in);
-	System.out.println("Bem vindo Professor! Por favor, digite seu nome: ");
+	System.out.println("Bem vindo Professor! Digite seu nome: ");
 	String nomeProfessor = leitor.nextLine();
 	
 	Professor umProfessor = new Professor(nomeProfessor);
